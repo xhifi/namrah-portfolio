@@ -1,0 +1,20 @@
+members:
+  - title: HTML
+    description: We write the document in MarkUP
+    url: google.com
+    img: https://bityl.co/8fhn
+
+  - title: CSS
+    description: We style things with css
+    url: facebook.com
+    img: https://bityl.co/8fhq
+
+  - title: Javascript
+    description: We make components dynamic with Javascript
+    url: github.com
+    img: https://bityl.co/8fhu
+
+  - title: Ruby
+    description: You can make CRUD APIs and backend applications with it.
+    url: www.youtube.com
+    img: https://bityl.co/8fhs

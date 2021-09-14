@@ -1,0 +1,43 @@
+navigation:
+  - title: Home
+    url: index.html
+
+  - title: About
+    url: about.html
+
+  - title: Showcase
+    url: showcaase.html
+
+  - title: Contact
+    url: contact.html
+
+showcase:  
+  - title: Design Architecture
+    description: Comprehensive knowledge of how design frameworks work in general and how to make a completely hand-grown design for an entity.
+    image: design.svg
+    url: 
+
+  - title: Hand-written Code
+    description: Comprehensive knowledge of how design frameworks work in general and how to make a completely hand-grown design for an entity.
+    image: code.svg
+    url: 
+  
+  - title: Analytics Gathering
+    description: Comprehensive knowledge of how design frameworks work in general and how to make a completely hand-grown design for an entity.
+    image: graph.svg
+    url: 
+
+  - title: SaaS Management
+    description: Comprehensive knowledge of how design frameworks work in general and how to make a completely hand-grown design for an entity.
+    image: button.svg
+    url: 
+  
+  - title: Article Writing
+    description: Comprehensive knowledge of how design frameworks work in general and how to make a completely hand-grown design for an entity.
+    image: text-edit.svg
+    url: 
+
+  - title: Time Efficient
+    description: Comprehensive knowledge of how design frameworks work in general and how to make a completely hand-grown design for an entity.
+    image: clock.svg
+    url: 

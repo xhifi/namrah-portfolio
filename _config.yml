@@ -1,0 +1,32 @@
+# Welcome to Jekyll
+
+# This is the main Settings/Configuration page for this project
+# Here begin the site settings:
+title: Namrah Khan
+email: namrahkhan387@gmail.com
+description: I am going to be a full-stack software developer working with HTML/CSS/Javascript and finally moving up to ReactNative and Next.js
+address:  
+
+# Below are the Custom Constants such as Socials or Authors etc.
+authorname: Shifa ur Rehman
+authoremail: shifa.newversion@gmail.com
+authorfacebook: fb.me/xhifi
+authorgithub: github.com/xhifi
+
+# Below are the url dataholders:
+url: "https://xhifi.github.io/namrah-portfolio/"
+baseurl: 
+
+# Markdown Settings
+markdown: kramdown
+
+# Sass Settings
+sass:
+  sass_dir: static/styles
+  style: 
+
+# Build Settings
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- README.md

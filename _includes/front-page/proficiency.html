@@ -1,0 +1,14 @@
+
+<div class="container py-5" id="#dev_proficiency">
+    <h1 class="text-center">Profeciency in: </h1>
+    <div class="row">
+        {% for entry in site.data.proficiency.members %}
+        <div class="col-md-4 box-box">
+            <img src="{{ entry.img }}" alt="" class="img-fluid myImage">
+            <h1>{{ entry.title }}</h1>
+            <p>{{ entry.description }}</p>
+            <button class="btn btn-primary" href="{{ entry.url }}">Click Here</button>
+        </div>
+        {% endfor %}
+    </div>
+</div>

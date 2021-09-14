@@ -1,0 +1,153 @@
+---
+---
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+////////////////////
+// Variable Styles//
+////////////////////
+*{
+    font-family: 'Urbanist', sans-serif;
+    h1, h2, h3, h4, h5, h6{
+        font-weight: bold;
+    }
+}
+
+// Body Styles
+body{
+    
+}
+
+//////////////////////
+// Component Styles //
+//////////////////////
+
+
+
+
+//////////////////////
+// Component Styles //
+//////////////////////
+
+// Navigation bar
+#main_nav{
+    .navbar-brand{
+        font-weight: bold;
+    }
+    .navbar-toggler{
+        .navbar-toggler-icon{
+
+        }   
+    }
+    .navbar-collapse{
+        .navbar-nav{
+            .nav-item{
+                .nav-link{
+                    
+                }
+            }
+        }
+        
+    }
+}
+
+// Hero Section
+#hero_section{
+    background-image: url("{{ site.baseurl }}/static/img/images/hero/hero-bg.png");
+    background-position: bottom center;
+    background-size: cover;
+    .d-flex{
+        .container{
+            text-align: center;
+            padding: 0 12rem;
+            
+            h1{
+                
+            }
+            p{
+
+            }
+            .btn{
+
+            }
+        }
+    }
+    
+}
+
+// Service Section
+#service-grid{
+    overflow: hidden;
+    position: relative;
+    .blue-polygon{
+        height: 70rem;
+        position: absolute;
+        bottom: -2rem;
+        left: 2rem;
+        z-index: -1;
+    }
+    &::after{
+        content: "";
+        border-radius: 2000px;
+        background: linear-gradient(120deg,rgba(255,74,158,0) 45%,rgba(255,74,158,.4) 100%);
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 50rem;
+        z-index: -1;
+        width: 50rem;
+        height: 50rem;
+    }
+    text-align: center;
+    .container{
+        background-color: white !important;
+        border-radius: 1.2rem;
+        border: 1px lightgrey solid;
+        h2{
+
+        }
+        .row{
+            .service-box{               
+                .img-container{
+                    border-radius: 100%;
+                    display: flex;
+                    width: 100px;
+                    height: 100px;
+                    align-items: center;
+                    justify-content: center;
+               }
+               .text-container{
+                   text-align: center;
+               }
+            }
+        }
+    }
+}
+
+///////////////////
+// Merdia Queries//
+///////////////////
+
+@media screen and (max-width: 992px) {
+    #main_nav{
+        padding-top: 2px !important;
+        padding-bottom: 2px !important;
+        background-color: #ccbfecff !important;
+        .navbar-brand{
+    
+        }
+        .navbar-toggler{
+            .navbar-toggler-icon{
+    
+            }   
+        }
+        .navbar-collapse{
+            .navbar-nav{
+                .nav-item{
+                    .nav-link{
+                        
+                    }
+                }
+            }
+        }
+    }
+
+}
